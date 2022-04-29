@@ -1,0 +1,29 @@
+create account needs to accept detailed input for address
+
+need checkout page
+need view account page
+
+
+
+--ME
+
+USERNAME NEEDS TO BE UNIQUE
+USERID NEEDS TO AUTO INCREMENT
+
+
+
+
+GOALS:
+logout button reroutes to sign-in
+
+
+
+
+<?php
+          if (isset($_SESSION["USERNAME"])) {
+            header("Location: ../main.php?login=successful");
+          }
+          else {
+            header("Location: ../index.php?login=unsuccessful");
+          }
+      ?>
