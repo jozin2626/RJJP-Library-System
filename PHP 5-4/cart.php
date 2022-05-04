@@ -69,6 +69,7 @@ if(isset($_POST['update'])) {
 <br>
 <?php echo isset($error) ? $error : ''; ?>
 <form method="post">
+	<div class="col-md-8 mx-auto" id="cart">
 	<table cellpadding="2" cellspacing="2" border="1">
 		<tr>
 			<th>Option</th>
@@ -108,6 +109,7 @@ if(isset($_POST['update'])) {
 			<td align="left"><?php echo $s; ?></td>
 		</tr>
 	</table>
+	<div>
 </form>
 </div>
 <br>
