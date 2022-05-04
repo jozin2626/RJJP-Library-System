@@ -1,0 +1,53 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  background-color: #8FBC8F
+}
+ .UpperScreen {
+  text-align: center;
+  background-color: lightblue;
+  border: 3px solid white;
+        
+      }   
+.productDisplay {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  border: 3px solid white;
+  }
+  
+.productImageDisplay {
+  height: 100px;
+  width: 250px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  }
+.main {
+  text-align: center;
+  }
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8FBC8F;
+  height: 30px;
+}
+
+#logout {
+  display: block;
+  text-align: center;
+  float: right;
+  width: 65px;
+  
+    }
+#accountView {
+  text-align: center;
+  float: right;
+
+    }
